@@ -1,0 +1,32 @@
+
+graph
+	node
+		int id
+		vector of edges containing node
+	edge
+		int id
+		node* n1
+		node* n2
+	vector of nodes
+	vector of edges
+	minNodeID
+	maxNodeID
+	minEdgeID
+	maxEdgeID
+	
+	getNode(id) // 
+	getNode(random)
+	getEdge(id)
+	getEdge(random)
+	
+in order to ensure that nodes in a graph only link to nodes which are also in graph, maybe node class should be nested in graph class.  then a node can only be made through a graph and can be made to only connect to other nodes in that graph
+
+should edges be represented as pointers to nodes which are found within a node?  Maybe for the
+
+getNode(15)
+	return nodeSet[15]
+	
+if (n.getID() == 15)
+
+getID()
+	
